@@ -1,6 +1,8 @@
 # Algoradix hardware
 
-<img src="images/front-panel.png" align="right" width="300" alt="Algoradix front panel">
+<p align="center">
+  <img src="images/front-panel.png" width="280" alt="Algoradix front panel">
+</p>
 
 **Algoradix** is a 12 HP Eurorack synth voice by **Roffa Logics**. It turns an
 [Axoloti Core v1.2](https://github.com/axoloti/axoloti) into a playable module, with eight pots, six CV inputs, stereo
@@ -10,8 +12,6 @@ Core's own line jacks, headphone output, micro-SD, mini-USB and USB host port co
 This repository holds the open hardware: the **interface board**, the **connector board** that joins it to the
 Core, the **front panel** (two colour variants), the BOM, the extracted netlist, assembly notes and photos. The
 firmware is in the companion repository **[algoradix-firmware](https://github.com/Gianducaconte/algoradix-firmware)**.
-
-<br clear="right">
 
 | | |
 |---|---|
