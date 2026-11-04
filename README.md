@@ -43,6 +43,16 @@ firmware is in the companion repository **[algoradix-firmware](https://github.co
   from the stock Axoloti patcher, mapped onto the Core's GPIO, so the hardware works with Axoloti software too. Today
   it runs its own [firmware](https://github.com/Gianducaconte/algoradix-firmware), written from scratch.
 
+## The build story
+
+The PCBs were designed **in one week, in one go**, with a schematic covering only the fundamentals. The first
+boards worked straight away. Only three sets were made. Every component was sourced directly from Mouser, TME and
+Thonk, and everything was **assembled by hand**, including the tiny 0805 and SOIC parts on the back of the interface
+board. You can see it in the [photos](#photos).
+
+Three modules exist: two are in the designer's rack, and the third is in a friend's. **There are no plans to make more or to
+sell them.** The design depends on the Axoloti Core, so it's published here instead: take it, learn from it, build on it. The [licence](#licence) keeps your derivatives open too.
+
 ## Contents
 
 | Path | What |
