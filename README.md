@@ -24,6 +24,25 @@ firmware is in the companion repository **[algoradix-firmware](https://github.co
 | Display | SSD1306 OLED, 64 × 32, I2C |
 | Power | Eurorack 10-pin, ±12 V |
 
+## Design highlights
+
+- **Compact.** A full Axoloti Core plus every jack, pot and the display fit in 12 HP: three boards stacked behind
+  one panel, joined by a single 30-pin flat cable.
+- **Real modular I/O, with protection in place.** CV inputs go through op-amps running on 3.3 V, so whatever is
+  patched in, the STM32's ADC never sees a voltage outside 0…3.3 V. Each input also has a 1 kHz low-pass. Audio inputs
+  are attenuated from Eurorack to line level, and outputs are amplified back up through 1 kΩ protection resistors.
+  Eurorack power comes in through reverse-polarity diodes.
+- **Pitch tracking from CV.** Each pot and its CV jack are summed in analog at a fixed 400 ADC counts per volt, so
+  TUNE works as a 1 V/oct input.
+- **A very small display.** A 0.49" 64 × 32 OLED, one of the smallest on the market, sits behind a pill-shaped
+  window in the panel. The UI is designed around it: one big word per screen.
+- **A PCB faceplate printed on aluminium.** The panel is an aluminium PCB with no silkscreen. The artwork is drawn
+  in the **solder-mask layer, inverted**, so the PCB maker produces the print as part of the board itself. There's
+  no silkscreen that might not grip on the aluminium, and the jack rings come out as plated copper.
+- **Built before AI made rewriting easy, and still works both ways.** Algoradix was first designed to run patches
+  from the stock Axoloti patcher, mapped onto the Core's GPIO, so the hardware works with Axoloti software too. Today
+  it runs its own [firmware](https://github.com/Gianducaconte/algoradix-firmware), written from scratch.
+
 ## Contents
 
 | Path | What |
@@ -59,8 +78,8 @@ connector board.
 header (with reverse-polarity diodes), and breaks out power for the Core and the interface board, MIDI to the Core,
 and an I2C header for the OLED.
 
-**Panel.** Made as a PCB, with the artwork in the solder-mask layer. Variant A and variant B are the two colourways
-(the photos show both).
+**Panel.** An aluminium PCB with the artwork in the solder-mask layer, inverted, and no silkscreen (see
+[panel/](panel/)). Variant A and variant B are the two colourways, and the photos show both.
 
 ## Photos
 
@@ -74,6 +93,10 @@ and an I2C header for the OLED.
 | interface board, SMD side | interface board populated | behind the panel |
 
 More in [`images/photos/`](images/photos/).
+
+## About the name
+
+*Roffa* is slang for Rotterdam. The name came out of nowhere, and it stuck.
 
 ## Licence
 

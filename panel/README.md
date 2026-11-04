@@ -1,6 +1,11 @@
 # Front panel
 
-12 HP Eurorack panel, 60.2 × 128.75 mm, made as a PCB.
+12 HP Eurorack panel, 60.2 × 128.75 mm, made as an **aluminium PCB** by the PCB maker.
+
+**How the print is made:** there's no silkscreen. The artwork is drawn in the solder-mask layer, **inverted**: the
+graphics come from where the mask is and isn't, so the print is part of the board itself. That avoids the usual
+trouble of silkscreen not gripping well on aluminium. The top copper adds plated rings around the jacks. Order it
+with the mask colour of the variant you want and with no silkscreen.
 
 | File | Layer |
 |---|---|

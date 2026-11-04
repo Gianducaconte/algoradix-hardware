@@ -23,10 +23,11 @@ boards behind a 12 HP panel. If you've built a few Eurorack DIY kits with SMD pa
 The Gerber folders are ready to upload as they are. Zip each folder and send it to any PCB fab. Both boards are
 standard 2-layer FR4 with plated through-holes. The interface board's drill file contains a few slotted holes, which every common fab handles.
 
-The panel is ordered as a PCB too: the outline, the holes and the artwork are in its Gerbers. The artwork is in the
-**top solder-mask layer** (`.GTS`), and the top copper (`.GTL`) gives the plated rings around the jack holes.
-Variant A and variant B are the two colourways. Choose the solder-mask colour to match the variant (see the
-[photos](../images/photos/04-panels-black-white.jpg)), and order with no silkscreen.
+The panel is ordered as an **aluminium PCB**: the outline, the holes and the artwork are all in its Gerbers. The
+artwork is in the **top solder-mask layer** (`.GTS`), drawn inverted, and the top copper (`.GTL`) gives the plated
+rings around the jack holes. Order with **no silkscreen**: the print comes from the mask itself, so there's no ink
+that has to grip on the aluminium. Variant A and variant B are the two colourways. Choose the solder-mask colour to
+match the variant (see the [photos](../images/photos/04-panels-black-white.jpg)).
 
 ## Assembly order
 
