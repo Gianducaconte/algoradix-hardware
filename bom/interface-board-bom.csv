@@ -1,0 +1,29 @@
+Qty,Designators,Value / Part,Description,Package,Manufacturer part,LCSC
+5,R1 R38 R39 R46 R47,330Ω,Resistor,0805,,
+13,R2 R6 R7 R8 R13 R25 R26 R29 R30 R33 R34 R36 R37,100k,Resistor,0805,,
+1,R3,200k,Resistor,0805,,
+6,R4 R5 R27 R31 R32 R35,33k,Resistor,0805,,
+2,R9 R12,300k,Resistor,0805,,
+4,R10 R11 R15 R18,12k,Resistor,0805,,
+2,R14 R19,75k,Resistor,0805,,
+6,R16 R17 R20 R21 R22 R50,1k,Resistor,0805,,
+2,R23 R24,10k,Resistor,0805,,
+6,C1 C4 C20 C22 C23 C25,4.7n,Capacitor (ceramic),0805,,
+21,C2 C3 C5 C6 C7 C10 C11 C16 C17 C18 C19 C21 C24 C26 C27 C28 C29 C31 C32 C33 C34,100n,Capacitor (ceramic),0805,,
+2,C12 C13,220p,Capacitor (ceramic),0805,,
+2,C14 C15,100p,Capacitor (ceramic),0805,,
+6,ASSIGN_CV DECAY_CV EFFECT_CV F1_CV F2_CV TUNE_CV,PJ301M,"3.5 mm mono jack, CV inputs (Thonkiconn PJ301M-12 style)",THT,,
+1,U18,OUTL,"3.5 mm mono jack, audio",THT,,
+1,U19,OUTR,"3.5 mm mono jack, audio",THT,,
+1,U30,INR,"3.5 mm mono jack, audio",THT,,
+1,U54,INL,"3.5 mm mono jack, audio",THT,,
+2,M_IN M_OUT,PJ366ST,3.5 mm stereo TRS jack (MIDI),THT,,
+2,U1 U2,TL072CM/TR,"Dual JFET op-amp, ±12 V",SOIC-8,TL072CM/TR,C5310783
+3,0 1 2,MCP6002T-E/SN,"Dual op-amp, rail-to-rail, 3.3 V",SOIC-8,MCP6002T-E/SN,C125816
+1,FPC1,1.0-B-30PBG,"FPC connector, 30 pins, 1.0 mm pitch",SMD,1.0-B-30PBG,C2914061
+1,S1,D6C90_F1_LFS,"C&K D6 series tactile switch (yellow GATE / FUNC button)",THT,D6C90 F1 LFS,
+4,LD1 LD2 LD3 LD4,LEDSQR2X5,"LED, 2×5 mm rectangular",THT,,
+8,ATT DECAY EFFECT F1 F2 LEVELS OCT TUNE,T18 alpha 9mm,"Potentiometer, Alpha 9 mm vertical, T18 knurled shaft",THT,,
+1,U3,2.54-3P ZZDK,"Power connector, 3 pins, 2.54 mm",THT,2.54-3P ZZDK,C18185650
+1,SW1,Rotary Encoder,"Rotary encoder with push switch (EC11, 20 detents)",THT,,
+1,D1,LM4040DBZ-2.0,Shunt voltage reference 2.0 V,SOT-23,LM4040DBZ-2.0,
