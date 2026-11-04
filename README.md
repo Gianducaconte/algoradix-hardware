@@ -1,6 +1,6 @@
 # Algoradix hardware
 
-<img src="images/photos/01-front-panel.jpg" align="right" width="260" alt="Algoradix front panel">
+<img src="images/front-panel.png" align="right" width="300" alt="Algoradix front panel">
 
 **Algoradix** is a 12 HP Eurorack synth voice by **Roffa Logics**. It turns an
 [Axoloti Core v1.2](https://github.com/axoloti/axoloti) into a playable module, with eight pots, six CV inputs, stereo

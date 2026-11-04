@@ -21,7 +21,7 @@ Qty,Designators,Value / Part,Description,Package,Manufacturer part,LCSC
 2,U1 U2,TL072CM/TR,"Dual JFET op-amp, ±12 V",SOIC-8,TL072CM/TR,C5310783
 3,0 1 2,MCP6002T-E/SN,"Dual op-amp, rail-to-rail, 3.3 V",SOIC-8,MCP6002T-E/SN,C125816
 1,FPC1,1.0-B-30PBG,"FPC connector, 30 pins, 1.0 mm pitch",SMD,1.0-B-30PBG,C2914061
-1,S1,D6C90_F1_LFS,"C&K D6 series tactile switch (yellow GATE / FUNC button)",THT,D6C90 F1 LFS,
+1,S1,D6C90_F1_LFS,"C&K D6 series tactile switch (blue GATE / FUNC button)",THT,D6C90 F1 LFS,
 4,LD1 LD2 LD3 LD4,LEDSQR2X5,"LED, 2×5 mm rectangular",THT,,
 8,ATT DECAY EFFECT F1 F2 LEVELS OCT TUNE,T18 alpha 9mm,"Potentiometer, Alpha 9 mm vertical, T18 knurled shaft",THT,,
 1,U3,2.54-3P ZZDK,"Power connector, 3 pins, 2.54 mm",THT,2.54-3P ZZDK,C18185650
